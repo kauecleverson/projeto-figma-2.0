@@ -26,7 +26,8 @@ header {
 }
 
 #navbar-wrapper img {
-  height: 40px; /* Ajuste conforme necessário */
+  height: 200px; /* Ajuste conforme necessário */
+  padding: 0 10px;
 }
 
 #navbar-wrapper ul {
