@@ -97,3 +97,31 @@ section{
 .teams-images:last-child{
   background-image: url("../img/suzanoLogo.png");
 }
+#content-wrapper-score{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.content-score-matches{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 20vh;
+  background-color: #dfdfdf;
+}
+.content-home-team{
+  
+}
+#image-apa{
+  background-image: url("../img/apanLogo.png");
+  width: 200px;
+  height: 200px;
+}
+#image-neu{
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/neurologiaAtivaLogo.png");
+}
