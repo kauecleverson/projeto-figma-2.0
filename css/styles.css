@@ -15,7 +15,7 @@ header {
   align-items: center;
 }
 #navbar-wrapper img {
-  height: 10vh; /* Ajuste conforme necessário */
+  height: 15vh; /* Ajuste conforme necessário */
 }
 #navbar-wrapper ul {
   display: flex;
