@@ -9,8 +9,8 @@
       content="Site de voleibol,volei para você, convocações brasileiras, fundamentos volei, posições volei, Conquistas brasileiras volei, conquistas brasileiras feminina volei, conquistas brasileiras masculinas volei, convocações volei, dicas para volei"
     />
     <title>Volei pra voce</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <header>
@@ -18,20 +18,20 @@
       <!-- Nav bar -->
       <nav id="navbar-wrapper">
         <figure>
-            <img src="" alt="Logo Vôlei pra você brasil" />
+            <img src="img/imglogosite.png" alt="Logo Vôlei pra você brasil" />
         </figure>
         <ul>
             <li class="navbar-li">
-                <a href="#content-wrapper">Destaques</a>
+                <a href="#content-wrapper-Outstanding-Teams">Destaques</a>
             </li>
             <li class="navbar-li">
-                <a href="#column1-wrapper">Placares</a>
+                <a href="#content-wrapper-score">Placares</a>
             </li>
             <li class="navbar-li">
-                <a href="#column2-wrapper">Seleção Masculina</a>
+                <a href="#mens-nation">Seleção Masculina</a>
             </li>
             <li class="navbar-li">
-                <a href="#content-wrapper2">Seleção Feminina</a>
+                <a href="#feminine-nation">Seleção Feminina</a>
             </li>
             <li class="button-navbar">
                 <input type="checkbox" id="btn-change-color" />
@@ -41,11 +41,25 @@
     </header>
     <main>
       <section id="content-wrapper-news">
-        <h2>"Acompanhe todas as notícias do voleibol em tempo real"</h2>
+        <div class="text-news">
+            <h2>Descubra mais sobre nossa seleção</h2>
+        </div>
             <figure>
-          <!-- Fazer tipo uma transição de slides com css como se fosse um mural de notícias, passando imagens de notícias ja existentes-->
-          <img src="" alt="" />
+                <img src="img/noticia-Superligafinal.jpg" alt="Slide 1" style="display: block;">
+                <img src="img/noticia-superliga-estreia.jpg" alt="Slide 2">
+                <img src="img/darlan-pulando.jpg" alt="Slide 3">
+                <img src="img/selecao-feminina-slide.jpg" alt="Slide 4">
             </figure>
+            
+            <div class="arrow-left">&#10094;</div>
+            <div class="arrow-right">&#10095;</div>
+            
+            <div class="paginacao">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
         </section>
       <section id="content-wrapper-Outstanding-Teams">
         <h2>Times de Destaque na Superliga</h2>
@@ -65,7 +79,9 @@
                 <div id="image-apa"></div>
                 <span>Apan Roll On</span>
             </div>
-            <div class="content-score"><span class="bold score">3 X 03</span></div>
+            <div class="content-score">
+                <span class="bold score">3 X 03</span>
+            </div>
             <div class="content-visitant">
                 <div id="image-neu"></div>
                 <span>Neurologia Ativa</span>
@@ -78,7 +94,8 @@
                 <span>Sada Cruzeiro</span>
             </div>
             <div class="content-score">
-                <span class="bold score">3 X 0</span></div>
+                <span class="bold score">3 X 0</span>
+            </div>
             <div class="content-visitant">
                 <div id="image-sec"></div>
                 <span>Suzano Volei</span>
@@ -89,7 +106,9 @@
                 <div id="image-goi"></div>
                 <span>Goiás</span>
             </div>
-            <div class="content-score"><span class="bold score">1 X 3</span></div>
+            <div class="content-score">
+                <span class="bold score">1 X 3</span>
+            </div>
             <div class="content-visitant">
                 <div id="image-ses"></div>
                 <span>Sesi Bauru</span>
@@ -100,7 +119,9 @@
                 <div id="image-mtc"></div>
                 <span>Itambé Minas</span>
             </div>
-            <div class="content-score"><span class="bold score">3 X 0</span></div>
+            <div class="content-score">
+                <span class="bold score">3 X 0</span>
+            </div>
             <div class="content-visitant">
                 <div id="image-joi"></div>
                 <span>Volei Joinvile</span>
@@ -110,105 +131,109 @@
       <section id="content-wrapper-selection">
         <h2>Seleção Brasileira</h2>
         <div class="content-nation">
+            <h2 id="mens-nation">Seleção masculina</h2>
             <div id="card-1">
-                <div class="front-card"><img src="img/adrianoCard.png" alt=""></div>
+                <div class="front-card">
+                    <img src="img/adrianoCard.png" alt="Adriano, jogador da seleção masculina de vôlei">
+                </div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="img/alanCard.jpg" alt=""></div>
+                <div class="front-card"><img src="img/alanCard.jpg" alt="Alan, jogador da seleção masculina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="img/bergmannCard.png" alt=""></div>
+                <div class="front-card"><img src="img/bergmannCard.png" alt="Bergmann, jogador da seleção masculina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="img/bruninhoCard.jpg" alt=""></div>
+                <div class="front-card"><img src="img/bruninhoCard.jpg" alt="Bruninho, jogador da seleção masculina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="img/cachopaCard.jpg" alt=""></div>
+                <div class="front-card"><img src="img/cachopaCard.jpg" alt="Cachopa, jogador da seleção masculina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="img/darlanCard.png" alt=""></div>
+                <div class="front-card"><img src="img/darlanCard.png" alt="Darlan, jogador da seleção masculina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="img/flavioCard.jpg" alt=""></div>
+                <div class="front-card"><img src="img/flavioCard.jpg" alt="Flávio, jogador da seleção masculina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="img/isacCard.jpg" alt=""></div>
+                <div class="front-card"><img src="img/isacCard.jpg" alt="Isac, jogador da seleção masculina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="img/lealCard.jpg" alt=""></div>
+                <div class="front-card"><img src="img/lealCard.jpg" alt="Leal, jogador da seleção masculina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="img/lucaoCard.png" alt=""></div>
+                <div class="front-card"><img src="img/lucaoCard.png" alt="Lucão, jogador da seleção masculina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="img/lucarelliCard.png" alt=""></div>
+                <div class="front-card"><img src="img/lucarelliCard.png" alt="Lucarelli, jogador da seleção masculina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="img/thalesCard.png" alt=""></div>
+                <div class="front-card"><img src="img/thalesCard.png" alt="Thales, jogador da seleção masculina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
         </div>
         <div class="content-nation">
+            <h2 id="women-nation">Seleção feminina</h2>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/dianaCard.png" alt="Diana, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/tainaraCard.jpg" alt="Tainara, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/thaisaCard.png" alt="Thaisa, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/juliaCard.png" alt="Julia, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/loreneCard.jpg" alt="Lorene, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/macrisCard.jpeg" alt="Macris, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/nyemeCard.jpg" alt="Nyeme, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/robertaCard.jpg" alt="Roberta, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/rosamariaCard.jpg" alt="Rosamaria, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/gabiCard.jpg" alt="Gabi, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/carolCard.jpg" alt="Carol, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
             <div class="card">
-                <div class="front-card"><img src="" alt=""></div>
+                <div class="front-card"><img src="img/anaCard.jpg" alt="Ana, jogadora da seleção feminina de vôlei"></div>
                 <div class="back-card"></div>
             </div>
-        </div>
+        </div>        
       </section>
     </main>
     <footer>
@@ -216,5 +241,6 @@
         <p>© Copyright Projeto Volei 2024</p>
         <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
     </footer>
+    <script src="assets/script/script.js"></script>
   </body>
 </html>
