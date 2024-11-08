@@ -80,20 +80,20 @@ section{
   align-items: center;
 }
 .teams-images:first-child{
-  background-image: url("../img/destaque1sada.png");
+  background-image: url("../img/sadaLogo.png");
 }
 .teams-images:nth-child(2){
-  background-image: url("../img/destaque2renata.png");
+  background-image: url("../img/renataLogo.png");
 }
 .teams-images:nth-child(3){
-  background-image: url("../img/destaque3sesi.png");
+  background-image: url("../img/sesiLogo.png");
 }
 .teams-images:nth-child(4){
-  background-image: url("../img/destaque4vedacit.png");
+  background-image: url("../img/vedacitLogo.png");
 }
 .teams-images:nth-child(5){
-  background-image: url("../img/destaque5itambeminas.png");
+  background-image: url("../img/itambeminasLogo.png");
 }
 .teams-images:last-child{
-  background-image: url("../img/destaque6suzanovolei.png");
+  background-image: url("../img/suzanoLogo.png");
 }
