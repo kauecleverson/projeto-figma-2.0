@@ -9,8 +9,8 @@
       content="Site de voleibol,volei para você, convocações brasileiras, fundamentos volei, posições volei, Conquistas brasileiras volei, conquistas brasileiras feminina volei, conquistas brasileiras masculinas volei, convocações volei, dicas para volei"
     />
     <title>Volei pra voce</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <header>
@@ -41,15 +41,25 @@
     </header>
     <main>
       <section id="content-wrapper-news">
-        <h2>"Acompanhe todas as notícias do voleibol em tempo real"</h2>
+        <div class="text-news">
+            <h2>Descubra mais sobre nossa seleção</h2>
+        </div>
             <figure>
-          <!-- Fazer tipo uma transição de slides com css como se fosse um mural de notícias, passando imagens de notícias ja existentes-->
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
+                <img src="img/noticia-Superligafinal.jpg" alt="Slide 1" style="display: block;">
+                <img src="img/noticia-superliga-estreia.jpg" alt="Slide 2">
+                <img src="img/darlan-pulando.jpg" alt="Slide 3">
+                <img src="img/selecao-feminina-slide.jpg" alt="Slide 4">
             </figure>
+            
+            <div class="arrow-left">&#10094;</div>
+            <div class="arrow-right">&#10095;</div>
+            
+            <div class="paginacao">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
         </section>
       <section id="content-wrapper-Outstanding-Teams">
         <h2>Times de Destaque na Superliga</h2>
@@ -165,7 +175,7 @@
             </div>
         </div>
         <div class="content-nation">
-            <h2i d="women-nation">Seleção feminina</h2>
+            <h2 d="women-nation">Seleção feminina</h2>
             <div class="card">
                 <div class="front-card"><img src="img/dianaCard.png" alt=""></div>
                 <div class="back-card"></div>
@@ -222,5 +232,6 @@
         <p>© Copyright Projeto Volei 2024</p>
         <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
     </footer>
+    <script src="assets/script/script.js"></script>
   </body>
 </html>
