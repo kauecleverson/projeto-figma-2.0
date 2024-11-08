@@ -38,7 +38,8 @@ header {
   margin-left: 15px;
 }
 
-.button-navbar input[type="checkbox"] {
+.button-navbar input
+[type="checkbox"] {
   width: 20px;
   height: 20px;
   cursor: pointer;
@@ -48,5 +49,51 @@ header {
   height: 50vh;
 }
 section{
-  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
+
+
+
+#content-wrapper-Outstanding-Teams{
+  background-color: gray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  gap: 70px;
+  padding: 200px;
+}
+#content-wrapper-Outstanding-Teams #box-teams-images{
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.teams-images{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teams-images:first-child{
+  background-image: url("../img/destaque1sada.png");
+}
+.teams-images:nth-child(2){
+  background-image: url("../img/destaque2renata.png");
+}
+.teams-images:nth-child(3){
+  background-image: url("../img/destaque3sesi.png");
+}
+.teams-images:nth-child(4){
+  background-image: url("../img/destaque4vedacit.png");
+}
+.teams-images:nth-child(5){
+  background-image: url("../img/destaque5itambeminas.png");
+}
+.teams-images:last-child{
+  background-image: url("../img/destaque6suzanovolei.png");
 }
