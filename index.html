@@ -9,8 +9,8 @@
       content="Site de voleibol,volei para você, convocações brasileiras, fundamentos volei, posições volei, Conquistas brasileiras volei, conquistas brasileiras feminina volei, conquistas brasileiras masculinas volei, convocações volei, dicas para volei"
     />
     <title>Volei pra voce</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <header>
@@ -40,187 +40,369 @@
       </nav>
     </header>
     <main>
-      <section id="content-wrapper-news">
-        <h2>"Acompanhe todas as notícias do voleibol em tempo real"</h2>
-            <figure>
-          <!-- Fazer tipo uma transição de slides com css como se fosse um mural de notícias, passando imagens de notícias ja existentes-->
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-            </figure>
+        <section id="content-news">
+            <div id="content-wrapper-news">
+                    <figure>
+                        <img src="img/gritaria-volei.png" alt="Slide 1" style="display: block;">
+                        <img src="img/levantamento.png" alt="Slide 2">
+                        <img src="img/darlan-pulando.png" alt="Slide 3">
+                        <img src="img/furar-bloqueio.png" alt="Slide 4">
+                    </figure>
+                    
+                    <div class="arrow-left">&#10094;</div>
+                    <div class="arrow-right">&#10095;</div>
+                    
+                    <div class="pagination">
+                        <div class="dot active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
         </section>
-      <section id="content-wrapper-Outstanding-Teams">
-        <h2>Times de Destaque na Superliga</h2>
-        <div id="box-teams-images">
-            <div class="teams-images"></div>
-            <div class="teams-images"></div>
-            <div class="teams-images"></div>
-            <div class="teams-images"></div>
-            <div class="teams-images"></div>
-            <div class="teams-images"></div>
-        </div>
-      </section>
-      <section id="content-wrapper-score">
-        <h2>Placar dos últimos jogos</h2>
-        <div class="content-score-matches">
-            <div class="content-home-team">
-                <div id="image-apa"></div>
-                <span>Apan Roll On</span>
+        <section id="content-wrapper-Outstanding-Teams">
+            <h2>Times de Destaque na Superliga</h2>
+            <div id="box-teams-images">
+                <div class="teams-images"></div>
+                <div class="teams-images"></div>
+                <div class="teams-images"></div>
+                <div class="teams-images"></div>
+                <div class="teams-images"></div>
+                <div class="teams-images"></div>
             </div>
-            <div class="content-score"><span class="bold score">3 X 03</span></div>
-            <div class="content-visitant">
-                <div id="image-neu"></div>
-                <span>Neurologia Ativa</span>
-            </div>
-        </div>
-        </div>
-        <div class="content-score-matches">
-            <div class="content-home-team">
-                <div id="image-sdc"></div>
-                <span>Sada Cruzeiro</span>
-            </div>
-            <div class="content-score">
-                <span class="bold score">3 X 0</span></div>
-            <div class="content-visitant">
-                <div id="image-sec"></div>
-                <span>Suzano Volei</span>
-            </div>
-        </div>
-        <div class="content-score-matches">
-            <div class="content-home-team">
-                <div id="image-goi"></div>
-                <span>Goiás</span>
-            </div>
-            <div class="content-score"><span class="bold score">1 X 3</span></div>
-            <div class="content-visitant">
-                <div id="image-ses"></div>
-                <span>Sesi Bauru</span>
-            </div>
-        </div>
-        <div class="content-score-matches">
-            <div class="content-home-team">
-                <div id="image-mtc"></div>
-                <span>Itambé Minas</span>
-            </div>
-            <div class="content-score"><span class="bold score">3 X 0</span></div>
-            <div class="content-visitant">
-                <div id="image-joi"></div>
-                <span>Volei Joinvile</span>
-            </div>
-        </div>
-      </section>
+          </section>
+                <section id="content-wrapper-score">
+                    <h2>Placar dos últimos jogos</h2>
+                    <div class="content-score-matches">
+                        <div class="content-home-team">
+                            <div id="image-apa" class="image-team"></div>
+                            <span class="teams-names">Apa</span>
+                        </div>
+                        <div class="content-score">
+                            <span class="bold score">3 X 3</span>
+                        </div>
+                        <div class="content-visitant">
+                            <div id="image-neu" class="image-team"></div>
+                            <span class="teams-names">Neu</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="content-score-matches">
+                        <div class="content-home-team">
+                            <div id="image-sdc" class="image-team"></div>
+                            <span class="teams-names">Sdc</span>
+                        </div>
+                        <div class="content-score">
+                            <span class="bold score">3 X 0</span>
+                        </div>
+                        <div class="content-visitant">
+                            <div id="image-sec" class="image-team"></div>
+                            <span class="teams-names">Sec</span>
+                        </div>
+                    </div>
+                    <div class="content-score-matches">
+                        <div class="content-home-team">
+                            <div id="image-goi" class="image-team"></div>
+                            <span class="teams-names">Goi</span>
+                        </div>
+                        <div class="content-score">
+                            <span class="bold score">1 X 3</span>
+                        </div>
+                        <div class="content-visitant">
+                            <div id="image-ses" class="image-team"></div>
+                            <span class="teams-names">Ses</span>
+                        </div>
+                    </div>
+                    <div class="content-score-matches">
+                        <div class="content-home-team">
+                            <div id="image-mtc" class="image-team"></div>
+                            <span class="teams-names">Mtc</span>
+                        </div>
+                        <div class="content-score">
+                            <span class="bold score">3 X 0</span>
+                        </div>
+                        <div class="content-visitant">
+                            <div id="image-joi" class="image-team"></div>
+                            <span class="teams-names">Joi</span>
+                        </div>
+                    </div>
+                </section>
       <section id="content-wrapper-selection">
-        <h2>Seleção Brasileira</h2>
+        <h2 id="text-selection">Seleção Brasileira</h2>
         <div class="content-nation">
             <h2 id="mens-nation">Seleção masculina</h2>
-            <div id="card-1">
-                <div class="front-card"><img src="img/adrianoCard.png" alt=""></div>
-                <div class="back-card"></div>
+            <div class="first-row">
+                <div class="card">
+                    <div class="flip">
+                      <div class="front-card"><div class="img-card card1"></div></div>
+                      <div class="back-card"><p>Exemplo atras</p></div>
+                    </div>
+                  </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card2"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card3"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card4"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card5"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card6"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <div class="front-card"><img src="img/alanCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/bergmannCard.png" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/bruninhoCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/cachopaCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/darlanCard.png" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/flavioCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/isacCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/lealCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/lucaoCard.png" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/lucarelliCard.png" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/thalesCard.png" alt=""></div>
-                <div class="back-card"></div>
+            <div class="second-row">  
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card7"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card card8">
+                        <div class="image-card"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card9"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card10"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card11"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card12"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="content-nation">
-            <h2i d="women-nation">Seleção feminina</h2>
-            <div class="card">
-                <div class="front-card"><img src="img/dianaCard.png" alt=""></div>
-                <div class="back-card"></div>
+            <h2 id="women-nation">Seleção feminina</h2>
+            <div class="first-row">
+                <div class="card">
+                    <div class="flip">
+                      <div class="front-card"><div class="img-card card13"></div></div>
+                      <div class="back-card"><p>Exemplo atras</p></div>
+                    </div>
+                  </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card14"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card15"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card16"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card17"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card18"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <div class="front-card"><img src="img/tainaraCard.jpg" alt=""></div>
-                <div class="back-card"></div>
+            <div class="second-row">  
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card19"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card20"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card21"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card22"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card23"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flip">
+                        <div class="front-card">
+                        <div class="image-card card24"></div>
+                        </div>
+                        <div class="back-card"></div>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <div class="front-card"><img src="img/thaisaCard.png" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/juliaCard.png" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/loreneCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/macrisCard.jpeg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/nyemeCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/robertaCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/rosamariaCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/gabiCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/carolCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-            <div class="card">
-                <div class="front-card"><img src="img/anaCard.jpg" alt=""></div>
-                <div class="back-card"></div>
-            </div>
-        </div>
+        </div>        
       </section>
     </main>
     <footer>
-        <p>Sobre nós</p>
-        <p>© Copyright Projeto Volei 2024</p>
-        <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
+        <div class="footer">
+            <div class="content-footer">
+                <ul>
+                    <li class="bold">Tópicos</li>
+                    <li><a href="#">Noticiais</a></li>
+                    <li><a href="#">Super Liga</a></li>
+                    <li><a href="#">Tabelas</a></li>
+                    <li><a href="#">Jogo</a></li>
+                    <li><a href="#">Elenco</a></li>
+                    <li><a href="#">Seleção</a></li>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#" >Feminino</a></li>
+                </ul>
+            </div>
+            <div id="content-footer">
+                <ul>
+                    <li class="bold">Entre em contato</li>
+                    <li>
+                        <a href="tel:+55511959595">Tel: (11)99999999</a>
+                    </li>
+                    <li>
+                        <a href="tel:+55511959595">Tel: (11)99999999</a>
+                    </li>
+                    <li>
+                        <a href="mailto:voleiparavoce@gmail.com">voleiparavoce@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-footer">
+                <ul>
+                    <li class="bold">Sobre nós</li>
+                    <li>
+                        <a href="#">Missão</a>
+                    </li>
+                    <li>
+                        <a href="#">Visão</a>
+                    </li>
+                    <li>
+                        <a href="#">Valores</a>
+                    </li>
+                    <li>
+                        <a href="#">Objetivos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-footer">
+                <ul>
+                    <li class="bold">Redes</li>
+                    <figure id="content-img-footer">
+                        <li>
+                            <a href="mailto:voleiparavoce@gmail.com"><img src="img/imgemail.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/viniciusfariac"><img src="img/imggithub.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/imginsta.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="tel:+55119999999"><img src="img/imgwpp.png" alt=""></a>
+                        </li>
+                    </figure>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2024 Volei Pra Você. Todos os direitos reservados. Volei para Você ltda - CNPJ: 59.546.515/0045-55 Rodovia Fernão</p>
+        </div>
     </footer>
+    <script src="assets/script/script.js"></script>
   </body>
 </html>
