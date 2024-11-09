@@ -79,27 +79,6 @@ section{
   display: none;
   animation: fade 1s;
 }
-
-/* Texto */
-.text-news {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 100%;
-  text-align: center;
-}
-
-.text-news h2 {
-  color: #FFFFFF;
-  font-size: 3.5rem;
-  font-weight: 700;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  font-family: Arial, sans-serif;
-  line-height: 1.2;
-}
-
 /* Setas */
 .arrow-left, .arrow-right {
   position: absolute;
@@ -116,6 +95,8 @@ section{
   opacity: 0.5;
   transition: opacity 0.3s;
   z-index: 10;
+  background-color: #242424;
+  border-radius: 50%;
 }
 
 .arrow-left { left: 20px; }
@@ -262,14 +243,76 @@ section{
 #content-wrapper-selection{
   display: flex;
   flex-direction: column;
-  gap: 50px
+  justify-content: center;
+  align-items: center;
+  gap:  50px;
 }
-#content-wrapper-selection #mens-nation{
-  margin-top: 200px;
-}
-#content-nation{
+#content-wrapper-selection{
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.content-nation{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+
+  gap: 170px;
+}
+.card{
+  display: flex;
+  max-width: 50px;
+  min-height: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+.front-card {
+  display: flex;
+  justify-content: space-around;
+}
+.front-card img{
+  width: 144px;
+  height: 242px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+footer{
+  background-color: #212121;
+  min-height: 50vh;
+  max-height: 140vh;
+}
+.footer{
+  display: flex;  
+  justify-content: space-around;
+  align-items: center;  
+  padding: 50px 0;
+}
+.footer:first-child{
+  border-bottom: 1px solid #fff;
+}
+#content-img-footer{
+  display: flex;
+  gap: 10px;
+}
+.footer li a,
+.footer li,
+footer p{
+  color: #fff;
+  line-height: 22px;
+}
+.footer li a:hover{
+  opacity: 0.5;
+  transition: 0.9s;
+}
+.footer li:first-child{
+  line-height: 40px;
+}
+#content-img-footer li a img{
+  width: 50px;
 }
 /* Animação */
 @keyframes fade {
