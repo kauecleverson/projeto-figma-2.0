@@ -37,7 +37,8 @@ header {
 }
 
 .navbar-li a:hover {
-  color: #007bff; /* Cor ao passar o mouse */
+  transition: 0.9s;
+  opacity: 0.8;
 }
 
 .button-navbar {
@@ -157,6 +158,11 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.teams-images:hover{
+  transition: 0.9s;
+  width: 200px;
+  height: 200px;
 }
 .teams-images:first-child{
   background-image: url("../../img/sadaLogo.png");
