@@ -270,13 +270,7 @@ section{
   color: #486afa;
   margin: 0 30px;
 }
-.content-nation .first-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 50px;
-}
-.content-nation .second-row {
+.content-nation .row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -321,78 +315,78 @@ section{
   background: center / cover no-repeat;
 }
 /* Images of Brazilian national team */
-.first-row .card:nth-child(1) .img-card{
+.row .card:nth-child(1) .img-card{
   background-image: url("../../img/adrianoCard.png");
 }
-.first-row .card:nth-child(2) .img-card {
+.row .card:nth-child(2) .img-card {
   background-image: url("../../img/alanCard.jpg");
 }
-.first-row .card:nth-child(3) .img-card {
+.row .card:nth-child(3) .img-card {
   background-image: url("../../img/bergmannCard.png");
 }
-.first-row .card:nth-child(4) .img-card {
+.row .card:nth-child(4) .img-card {
   background-image: url("../../img/bruninhoCard.jpg");
 }
-.first-row .card:nth-child(5) .img-card {
+.row .card:nth-child(5) .img-card {
   background-image: url("../../img/cachopaCard.jpg");
 }
-.first-row .card:nth-child(6) .img-card {
+.row .card:nth-child(6) .img-card {
   background-image: url("../../img/darlanCard.png");
 }
-.first-row:nth-of-type(2)  .card:nth-child(1) .img-card {
+.row:nth-of-type(2)  .card:nth-child(1) .img-card {
   background-image: url("../../img/flavioCard.jpg");
 }
-.first-row:nth-of-type(2)  .card:nth-child(2) .img-card {
+.row:nth-of-type(2)  .card:nth-child(2) .img-card {
   background-image: url("../../img/isacCard.jpg");
 }
-.first-row:nth-of-type(2)  .card:nth-child(3) .img-card {
+.row:nth-of-type(2)  .card:nth-child(3) .img-card {
   background-image: url("../../img/lealCard.jpg");
 }
-.first-row:nth-of-type(2)  .card:nth-child(4) .img-card {
+.row:nth-of-type(2)  .card:nth-child(4) .img-card {
   background-image: url("../../img/lucaoCard.png");
 }
-.first-row:nth-of-type(2)  .card:nth-child(5) .img-card {
+.row:nth-of-type(2)  .card:nth-child(5) .img-card {
   background-image: url("../../img/lucarelliCard.png");
 }
-.first-row:nth-of-type(2)  .card:nth-child(6) .img-card {
+.row:nth-of-type(2)  .card:nth-child(6) .img-card {
   background-image: url("../../img/thalesCard.png");
 }
-.content-nation:nth-of-type(2) .first-row  .card:nth-child(1) .img-card {
+.content-nation:nth-of-type(2) .row  .card:nth-child(1) .img-card {
   background-image: url("../../img/dianaCard.png");
 }
-.content-nation:nth-of-type(2) .first-row  .card:nth-child(2) .img-card {
+.content-nation:nth-of-type(2) .row  .card:nth-child(2) .img-card {
   background-image: url("../../img/tainaraCard.jpg");
 }
-.content-nation:nth-of-type(2) .first-row  .card:nth-child(3) .img-card {
+.content-nation:nth-of-type(2) .row  .card:nth-child(3) .img-card {
   background-image: url("../../img/thaisaCard.png");
   background-position: center 8px;
 }
-.content-nation:nth-of-type(2) .first-row  .card:nth-child(4) .img-card {
+.content-nation:nth-of-type(2) .row  .card:nth-child(4) .img-card {
   background-image: url("../../img/juliaCard.png");
 }
-.content-nation:nth-of-type(2) .first-row  .card:nth-child(5) .img-card {
+.content-nation:nth-of-type(2) .row  .card:nth-child(5) .img-card {
   background-image: url("../../img/loreneCard.jpg");
 }
-.content-nation:nth-of-type(2) .first-row  .card:nth-child(6) .img-card {
+.content-nation:nth-of-type(2) .row  .card:nth-child(6) .img-card {
   background-image: url("../../img/macrisCard.jpeg");
 }
-.content-nation:nth-of-type(2) .first-row:nth-of-type(2) .card:nth-child(1) .img-card {
+.content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(1) .img-card {
   background-image: url("../../img/nyemeCard.jpg");
 }
-.content-nation:nth-of-type(2) .first-row:nth-of-type(2) .card:nth-child(2) .img-card{
+.content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(2) .img-card{
   background-image: url("../../img/robertaCard.jpg");
   background-position: center 7px;
 }
-.content-nation:nth-of-type(2) .first-row:nth-of-type(2) .card:nth-child(3) .img-card{
+.content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(3) .img-card{
   background-image: url("../../img/rosamariaCard.jpg");
 }
-.content-nation:nth-of-type(2) .first-row:nth-of-type(2) .card:nth-child(4) .img-card{
+.content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(4) .img-card{
   background-image: url("../../img/gabiCard.jpg");
 }
-.content-nation:nth-of-type(2) .first-row:nth-of-type(2) .card:nth-child(5) .img-card{
+.content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(5) .img-card{
   background-image: url("../../img/carolCard.jpg");
 }
-.content-nation:nth-of-type(2) .first-row:nth-of-type(2) .card:nth-child(6) .img-card{
+.content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(6) .img-card{
   background-image: url("../../img/anaCard.jpg");
 }
 footer{
