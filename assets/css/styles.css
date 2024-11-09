@@ -259,6 +259,18 @@ section{
 #image-joi{
   background-image: url("../../img/joinvilleLogo.png");
 }
+#content-wrapper-selection{
+  display: flex;
+  flex-direction: column;
+  gap: 50px
+}
+#content-wrapper-selection #mens-nation{
+  margin-top: 200px;
+}
+#content-nation{
+  display: flex;
+  flex-direction: row;
+}
 /* Animação */
 @keyframes fade {
   from { opacity: 0.3; }
