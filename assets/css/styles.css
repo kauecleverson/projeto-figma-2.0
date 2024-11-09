@@ -1,0 +1,494 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Change Header */
+header {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+}
+
+#navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar-wrapper figure {
+  margin: 0;
+}
+
+#navbar-wrapper img {
+  height: 200px;
+  padding: 0 10px;
+}
+
+#navbar-wrapper ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-li {
+  margin: 0 15px;
+}
+
+.navbar-li a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar-li a:hover {
+  color: #007bff;
+}
+
+.button-navbar {
+  margin-left: 15px;
+}
+
+.button-navbar input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Slide */
+#content-wrapper-news {
+  position: relative;
+  width: 80%;
+  height: 60vh;
+  background: #242424;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Images */
+#content-wrapper-news img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  animation: fade 1s;
+}
+/* Arrows */
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+  z-index: 10;
+  background-color: #242424;
+  border-radius: 50%;
+}
+
+.arrow-left {
+  left: 20px;
+}
+.arrow-right {
+  right: 20px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
+}
+
+/* Paginação */
+.paginacao {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 5;
+  background: transparent;
+}
+
+.paginacao .dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+.paginacao .dot.active {
+  background-color: white;
+}
+
+#content-wrapper-news {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background: #242424;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Outstanding teams */
+#content-wrapper-Outstanding-Teams {
+  background-color: gray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  gap: 70px;
+  padding: 200px;
+  margin: 15vh 0;
+}
+#content-wrapper-Outstanding-Teams #box-teams-images {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.teams-images {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.4s ease-in-out;
+}
+
+.teams-images:hover {
+  transform: scale(1.3);
+}
+
+.teams-images:first-child {
+  background-image: url("../../img/sadaLogo.png");
+}
+
+.teams-images:nth-child(2) {
+  background-image: url("../../img/renataLogo.png");
+}
+
+.teams-images:nth-child(3) {
+  background-image: url("../../img/sesiLogo.png");
+}
+
+.teams-images:nth-child(4) {
+  background-image: url("../../img/vedacitLogo.png");
+}
+
+.teams-images:nth-child(5) {
+  background-image: url("../../img/itambeminasLogo.png");
+}
+
+.teams-images:last-child {
+  background-image: url("../../img/suzanoLogo.png");
+}
+
+/* Score of matches */
+#content-wrapper-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.content-score-matches {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 22vh;
+  background-color: #dfdfdf;
+}
+.content-home-team {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.content-visitant {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: row-reverse;
+}
+.image-team {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+.teams-names {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.score {
+  font-size: 2rem;
+}
+#image-apa {
+  background-image: url("../../img/apanLogo.png");
+}
+#image-neu {
+  background-image: url("../../img/neurologiaAtivaLogo.png");
+}
+#image-sdc {
+  background-image: url("../../img/sadaLogo.png");
+}
+#image-sec {
+  background-image: url("../../img/suzanoLogo.png");
+}
+#image-goi {
+  background-image: url("../../img/goiasLogo.png");
+}
+#image-ses {
+  background-image: url("../../img/sesiLogo.png");
+}
+#image-mtc {
+  background-image: url("../../img/itambeminasLogo.png");
+}
+#image-joi {
+  background-image: url("../../img/joinvilleLogo.png");
+}
+
+/* Content Brazilian national team */
+
+#content-wrapper-selection {
+  margin-top: 15vh;
+  border-top: 1px solid #dfdfdf;
+  padding-top: 15vh;
+}
+
+#text-selection {
+  text-align: center;
+  color: #486afa;
+}
+
+.content-nation h2 {
+  margin: 2vw 3.6vw;
+  color: #486afa;
+}
+
+.content-nation .first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Cards Brazilian national team */
+.card {
+  position: relative;
+  height: 242px;
+  width: 144px;
+}
+
+.flip {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+
+.front-card,
+.back-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 10px #000000be;
+  backface-visibility: hidden;
+}
+
+.front-card {
+  background-size: cover;
+  background-position: center;
+}
+
+.back-card {
+  background-color: #fff;
+  color: #000;
+  transform: rotateY(180deg);
+}
+
+.card:hover .flip {
+  transform: rotateY(180deg);
+}
+
+.img-card {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.card1 {
+  background-image: url(../../img/);
+}
+
+.card2 {
+  background-image: url(../../img/);
+}
+
+.card3 {
+  background-image: url(../../img/);
+}
+
+.card4 {
+  background-image: url(../../img/);
+}
+
+.card5 {
+  background-image: url(../../img/);
+}
+
+.card6 {
+  background-image: url(../../img/);
+}
+
+.card7 {
+  background-image: url(../../img/);
+}
+
+.card8 {
+  background-image: url(../../img/);
+}
+
+.card9 {
+  background-image: url(../../img/);
+}
+
+.card10 {
+  background-image: url(../../img/);
+}
+
+.card11 {
+  background-image: url(../../img/);
+}
+
+.card12 {
+  background-image: url(../../img/);
+}
+
+.card13 {
+  background-image: url(../../img/);
+}
+
+.card14 {
+  background-image: url(../../img/);
+}
+
+.card15 {
+  background-image: url(../../img/);
+}
+
+.card16 {
+  background-image: url(../../img/);
+}
+
+.card17 {
+  background-image: url(../../img/);
+}
+
+.card18 {
+  background-image: url(../../img/);
+}
+
+.card19 {
+  background-image: url(../../img/);
+}
+
+.card20 {
+  background-image: url(../../img/);
+}
+
+.card21 {
+  background-image: url(../../img/);
+}
+
+.card22 {
+  background-image: url(../../img/);
+}
+
+.card23 {
+  background-image: url(../../img/);
+}
+
+.card24 {
+  background-image: url(../../img/);
+}
+
+.content-nation .second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+/* Start footer */
+footer {
+  background-color: #212121;
+  min-height: 50vh;
+  max-height: 140vh;
+  margin-top: 15vw;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.footer:first-child {
+  border-bottom: 1px solid #fff;
+}
+
+#content-img-footer {
+  display: flex;
+  gap: 10px;
+}
+
+.footer li a,
+.footer li,
+footer p {
+  color: #fff;
+  line-height: 22px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer li a:hover {
+  opacity: 0.5;
+  transition: 0.9s;
+}
+
+.footer li:first-child {
+  line-height: 40px;
+}
+
+#content-img-footer li a img {
+  width: 50px;
+}
