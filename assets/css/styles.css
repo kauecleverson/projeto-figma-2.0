@@ -158,11 +158,12 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.8s ease-in-out;
+  cursor: pointer;
 }
 .teams-images:hover{
   transition: 0.9s;
-  width: 200px;
-  height: 200px;
+  transform: scale(1.5);
 }
 .teams-images:first-child{
   background-image: url("../../img/sadaLogo.png");
