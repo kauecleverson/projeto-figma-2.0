@@ -9,8 +9,13 @@
       content="Site de voleibol,volei para você, convocações brasileiras, fundamentos volei, posições volei, Conquistas brasileiras volei, conquistas brasileiras feminina volei, conquistas brasileiras masculinas volei, convocações volei, dicas para volei"
     />
     <title>Volei pra voce</title>
+    <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Import Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -28,10 +33,10 @@
                 <a href="#content-wrapper-score">Placares</a>
             </li>
             <li class="navbar-li">
-                <a href="#mens-nation">Seleção Masculina</a>
+                <a href="#content-nation-masculine">Seleção Masculina</a>
             </li>
             <li class="navbar-li">
-                <a href="#feminine-nation">Seleção Feminina</a>
+                <a href="#content-nation-female">Seleção Feminina</a>
             </li>
             <li class="button-navbar">
                 <input type="checkbox" id="btn-change-color" />
@@ -129,7 +134,7 @@
       </section>
       <section id="content-wrapper-selection">
         <h2 id="text-selection">Seleção Brasileira</h2>
-        <div class="content-nation">
+        <div class="content-nation" id="content-nation-masculine">
             <h2 class="title-nation">Seleção masculina</h2>
             <div class="row">
                 <div class="card">
@@ -232,7 +237,7 @@
                 </div>
             </div>
         </div>
-        <div class="content-nation">
+        <div class="content-nation" id="content-nation-female">
             <h2 class="title-nation">Seleção feminina</h2>
             <div class="row">
                 <div class="card">
