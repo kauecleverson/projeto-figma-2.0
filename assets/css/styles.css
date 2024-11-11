@@ -219,6 +219,7 @@ section{
 .teams-names{
   font-size: 1.1rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .score{
   font-size: 2rem;
@@ -259,7 +260,6 @@ section{
 }
 #text-selection {
   text-align: center;
-  color: #486afa;
 }
 .content-nation{
   display: flex;
@@ -267,7 +267,6 @@ section{
   gap: 50px;
 }
 .content-nation .title-nation {
-  color: #486afa;
   margin: 0 30px;
 }
 .content-nation .row {
