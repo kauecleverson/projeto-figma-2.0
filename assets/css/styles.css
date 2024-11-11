@@ -319,31 +319,31 @@ section{
   background-image: url("../../img/adrianoCard.png");
 }
 .row .card:nth-child(2) .img-card {
-  background-image: url("../../img/alanCard.jpg");
+  background-image: url("../../img/alanCard.png");
 }
 .row .card:nth-child(3) .img-card {
   background-image: url("../../img/bergmannCard.png");
 }
 .row .card:nth-child(4) .img-card {
-  background-image: url("../../img/bruninhoCard.jpg");
+  background-image: url("../../img/bruninhoCard.png");
 }
 .row .card:nth-child(5) .img-card {
-  background-image: url("../../img/cachopaCard.jpg");
+  background-image: url("../../img/krelingCard.png");
 }
 .row .card:nth-child(6) .img-card {
   background-image: url("../../img/darlanCard.png");
 }
 .row:nth-of-type(2)  .card:nth-child(1) .img-card {
-  background-image: url("../../img/flavioCard.jpg");
+  background-image: url("../../img/flavioCard.png");
 }
 .row:nth-of-type(2)  .card:nth-child(2) .img-card {
-  background-image: url("../../img/isacCard.jpg");
+  background-image: url("../../img/isacCard.png");
 }
 .row:nth-of-type(2)  .card:nth-child(3) .img-card {
-  background-image: url("../../img/lealCard.jpg");
+  background-image: url("../../img/lealCard.png");
 }
 .row:nth-of-type(2)  .card:nth-child(4) .img-card {
-  background-image: url("../../img/lucaoCard.png");
+  background-image: url("../../img/gibaCard.png");
 }
 .row:nth-of-type(2)  .card:nth-child(5) .img-card {
   background-image: url("../../img/lucarelliCard.png");
@@ -355,7 +355,7 @@ section{
   background-image: url("../../img/dianaCard.png");
 }
 .content-nation:nth-of-type(2) .row  .card:nth-child(2) .img-card {
-  background-image: url("../../img/tainaraCard.jpg");
+  background-image: url("../../img/tainaraCard.png");
 }
 .content-nation:nth-of-type(2) .row  .card:nth-child(3) .img-card {
   background-image: url("../../img/thaisaCard.png");
@@ -365,29 +365,29 @@ section{
   background-image: url("../../img/juliaCard.png");
 }
 .content-nation:nth-of-type(2) .row  .card:nth-child(5) .img-card {
-  background-image: url("../../img/loreneCard.jpg");
+  background-image: url("../../img/lorenneCard.png");
 }
 .content-nation:nth-of-type(2) .row  .card:nth-child(6) .img-card {
-  background-image: url("../../img/macrisCard.jpeg");
+  background-image: url("../../img/macrisCard.png");
 }
 .content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(1) .img-card {
-  background-image: url("../../img/nyemeCard.jpg");
+  background-image: url("../../img/nyemeCard.png");
 }
 .content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(2) .img-card{
-  background-image: url("../../img/robertaCard.jpg");
+  background-image: url("../../img/robertaCard.png");
   background-position: center 7px;
 }
 .content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(3) .img-card{
-  background-image: url("../../img/rosamariaCard.jpg");
+  background-image: url("../../img/rosamariaCard.png");
 }
 .content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(4) .img-card{
-  background-image: url("../../img/gabiCard.jpg");
+  background-image: url("../../img/gabiCard.png");
 }
 .content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(5) .img-card{
-  background-image: url("../../img/carolCard.jpg");
+  background-image: url("../../img/carolCard.png");
 }
 .content-nation:nth-of-type(2) .row:nth-of-type(2) .card:nth-child(6) .img-card{
-  background-image: url("../../img/anaCard.jpg");
+  background-image: url("../../img/anaCard.png");
 }
 footer{
   background-color: #212121;
