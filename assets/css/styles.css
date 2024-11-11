@@ -305,6 +305,16 @@ section{
   background-color: #fff;
   color: #000;
   transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.back-card p{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 1.15em;
 }
 .card:hover .flip {
   transform: rotateY(180deg);
