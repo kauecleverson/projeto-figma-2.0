@@ -308,12 +308,17 @@ section{
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+  margin: 0 auto;
 }
 .back-card p{
   display: flex;
   flex-direction: column;
   gap: 5px;
   font-size: 1.15em;
+  width: 40%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 .card:hover .flip {
   transform: rotateY(180deg);
@@ -408,6 +413,9 @@ footer{
   justify-content: space-around;
   align-items: center;  
   padding: 50px 0;
+}
+.footer:last-child{
+  flex-direction: column;
 }
 .footer:first-child{
   border-bottom: 1px solid #fff;
