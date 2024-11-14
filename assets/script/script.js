@@ -51,3 +51,16 @@ const startAutoSlide = () => {
 
 // Inicia o slideshow automático
 startAutoSlide();
+
+function alternarTema() {
+    document.body.classList.toggle("escuro");
+    const iconeTema = document.getElementById("iconeTema");
+
+    if (document.body.classList.contains("escuro")) {
+        iconeTema.src = "img/sol.png"; // Caminho para o ícone da lua no tema escuro
+        iconeTema.alt = "Lua";
+    } else {
+        iconeTema.src = "img/lua.png"; // Caminho para o ícone do sol no tema claro
+        iconeTema.alt = "Sol";
+    }
+}

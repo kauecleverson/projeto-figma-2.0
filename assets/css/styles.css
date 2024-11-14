@@ -1,5 +1,5 @@
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
   background-color: #f2f2f2;
@@ -27,6 +27,7 @@ header {
 }
 #navbar-wrapper ul {
   display: flex;
+  align-items: center;
 }
 .navbar-li {
   margin: 0 15px;
@@ -47,11 +48,34 @@ header {
   margin-left: 15px;
 }
 
-.button-navbar input
-[type="checkbox"] {
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
+.button-navbar button {
+  background-color: transparent;
+  border: none;
+  height: 10px;
+}
+
+.button-navbar button #iconeTema {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.7s;
+}
+
+/* Estilos para tema escuro */
+body.escuro {
+  background-color: #1a1a1a;
+  color: #FFFFFF;
+}
+
+body.escuro header {
+  background-color: #1a1a1a; /* Cor para o tema escuro */
+}
+
+body.escuro .navbar-li a {
+  color: #CCCCCC;
+}
+body.escuro .content-score-matches,
+body.escuro #content-wrapper-Outstanding-Teams{
+  background-color: #1C1C1C;
 }
 #content-wrapper-news figure{
   width: 10vw;
@@ -277,6 +301,7 @@ section{
   justify-content: space-around;
   gap: 50px;
 }
+
 /* Cards Brazilian national team */
 .card {
   position: relative;
@@ -442,6 +467,12 @@ footer p{
 #content-img-footer li a img{
   width: 50px;
 }
+
+
+
+
+
+
 /* Animação */
 @keyframes fade {
   from { opacity: 0.3; }
