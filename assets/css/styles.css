@@ -64,6 +64,7 @@ header {
   opacity: 0.7;
   transition: 0.7s;
 }
+
 /* Estilos para tema escuro */
 body.escuro {
   background-color: #1a1a1a;
@@ -84,6 +85,11 @@ body.escuro #content-wrapper-Outstanding-Teams{
 body.escuro .front-card{
   box-shadow: 0px 0px 5px #E0F7FA;
 }
+body.escuro .back-card{
+  background-color: transparent;
+  color: #fff;
+}
+
 #content-wrapper-news figure{
   width: 10vw;
   height: 50vh;
